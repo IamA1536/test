@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="325.0" prefWidth="310.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"fx:controller="application.controller">
+   
+   
+   <children>
+      <Button id="Bt1" layoutX="137.0" layoutY="254.0" mnemonicParsing="false" text="ON" />
+      <Label id="Label" alignment="CENTER" layoutX="95.0" layoutY="55.0" text="未点击按钮">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
